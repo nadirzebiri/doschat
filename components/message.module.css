@@ -1,0 +1,27 @@
+.message {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	width: fit-content;
+	padding: 20px;
+	border-radius: 13px;
+}
+
+/* CSS properties for the message written by auth user */
+.messageAuthored {
+	align-self: flex-end;
+	background-color: var(--c-secondary-light);
+}
+
+/* CSS properties for the message NOT written by auth user */
+.messageNotAuthored {
+	background-color: var(--c-primary-dark);
+}
+
+.msgAuthor {
+	color: var(--c-secondary);
+}
+
+.msgContent {
+	color: var(--c-primary);
+}
