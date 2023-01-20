@@ -1,8 +1,8 @@
 import { Inter } from "@next/font/google";
-import Header from "../../components/header";
-import Message from "../../components/message";
+import Header from "../components/header";
+import Message from "../components/message";
 import styles from "../styles/index.module.css";
-import Chatbox from "../../components/chatbox";
+import Chatbox from "../components/chatbox";
 import io from "socket.io-client";
 import { useEffect, useState } from "react";
 let socket;

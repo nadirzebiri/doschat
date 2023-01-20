@@ -27,7 +27,8 @@ body {
 	background-color: var(--c-primary-darkest);
 }
 
-input {
+input,
+button {
 	font-size: inherit;
 	font-family: inherit;
 }

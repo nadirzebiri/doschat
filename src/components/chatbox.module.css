@@ -1,4 +1,4 @@
-.chatbox {
+.chatContainer {
 	position: fixed;
 	bottom: 0;
 	width: 100vw;
@@ -6,16 +6,27 @@
 	padding: 25px var(--container-gutter-horizontal);
 }
 
+.chatbox {
+	display: flex;
+}
+
 .chatInput {
 	background-color: var(--c-primary-darker);
 	width: 100%;
 	border: 3px black solid;
 	padding: 9px 19px;
-	border-radius: 13px;
+	border-radius: 13px 0 0 13px;
 	color: var(--c-primary);
 }
 
 .chatInput:focus {
 	outline: none;
 	border: 3px var(--c-primary-dark) solid;
+}
+
+.chatSendBtn {
+	background-color: var(--c-primary-darkest);
+	color: var(--c-primary);
+	padding: 0 20px;
+	border-radius: 0 13px 13px 0;
 }

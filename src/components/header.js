@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./header.module.css";
-import utilsStyles from "../src/styles/utils.module.css";
+import utilsStyles from "../styles/utils.module.css";
 
 export default function Header() {
 	return (
