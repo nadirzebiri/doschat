@@ -1,0 +1,21 @@
+.chatbox {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	background-color: var(--c-secondary-light);
+	padding: 25px var(--container-gutter-horizontal);
+}
+
+.chatInput {
+	background-color: var(--c-primary-darker);
+	width: 100%;
+	border: 3px black solid;
+	padding: 9px 19px;
+	border-radius: 13px;
+	color: var(--c-primary);
+}
+
+.chatInput:focus {
+	outline: none;
+	border: 3px var(--c-primary-dark) solid;
+}

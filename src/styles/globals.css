@@ -1,6 +1,8 @@
 :root {
 	font-size: 62.5%; /* now 1rem = 10px */
 
+	--container-gutter-horizontal: 13.19%;
+
 	/* Colors variables */
 	/* Primary */
 	--c-primary: #cccccc;
@@ -23,4 +25,9 @@
 body {
 	font-size: 1.6rem;
 	background-color: var(--c-primary-darkest);
+}
+
+input {
+	font-size: inherit;
+	font-family: inherit;
 }

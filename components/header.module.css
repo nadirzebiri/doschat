@@ -1,10 +1,7 @@
 .header {
 	color: var(--c-secondary);
 	background-color: var(--c-secondary-dark);
-	padding: 15px 0;
-}
-
-.header div {
+	padding: 15px var(--container-gutter-horizontal);
 	display: flex;
 	align-items: center;
 	gap: 15px;
