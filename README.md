@@ -2,6 +2,8 @@
 
 Doschat is a Socket web application which allows users to communicate with each other in real-time. Inpired by Discord, I've made this simple app in Next.js to test the power of Socket.js
 
+![project cover](./public/project-cover.jpg)
+
 ## Features
 
 - Real-time communication
