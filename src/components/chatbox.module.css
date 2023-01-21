@@ -25,8 +25,13 @@
 }
 
 .chatSendBtn {
+	cursor: pointer;
 	background-color: var(--c-primary-darkest);
 	color: var(--c-primary);
 	padding: 0 20px;
 	border-radius: 0 13px 13px 0;
+}
+
+.chatSendBtn:hover {
+	background-color: var(--c-primary-darker);
 }

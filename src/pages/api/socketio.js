@@ -7,8 +7,8 @@ const ioHandler = (req, res) => {
 		const io = new Server(res.socket.server);
 
 		io.on("connection", (socket) => {
-			socket.on("test", (msg) => {
-				socket.broadcast.emit("test");
+			socket.on("sendMessage", (data) => {
+				socket.broadcast.emit("sendMessage", data);
 			});
 		});
 		res.socket.server.io = io;
