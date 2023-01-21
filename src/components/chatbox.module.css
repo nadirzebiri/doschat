@@ -1,7 +1,4 @@
 .chatContainer {
-	position: fixed;
-	bottom: 0;
-	width: 100vw;
 	background-color: var(--c-secondary-light);
 	padding: 25px var(--container-gutter-horizontal);
 }
